@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+a {
+	text-decoration: none;
+	/*color: #000;*/
+	color: inherit;
+}
+
+.bt_wrap {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 0; /*버튼사이 여백 없애줌*/
+}
+
+.board_page {
+	margin-top: 15px;
+}
+
+.board_title {
+	margin-bottom: 15px;
+}
+
+.board_title strong {
+	font-size: 2rem; /*최상위값에 곱한값*/
+}
+
+.board_title p {
+	margin-top: 5px;
+}
+
+/*list*/
+.board_list {
+	width: 100%;
+	text-align: center;
+}
+
+.top {
+	border-top: 2px solid #000;
+	background-color: #eeeeee;
+}
+
+.board_list .num {
+	width: 10%;
+}
+
+.board_list .title {
+	width: 50%;
+}
+
+.board_list .writer {
+	width: 10%;
+}
+
+.board_list .date {
+	width: 30%;
+}
+
+/*write*/
+.board_write {
+	width: 100%;
+	border-top: 2px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+.board_write .title {
+	height: 70px;
+	vertical-align: middle;
+	text-align: center;	
+	
+}
+
+.board_write .title .text {
+	width: 10%;
+}
+
+.board_write .cont textarea {
+	display: block;
+	width: 100%;
+	height: 300px;
+	padding: 15px;
+	box-sizing: border-box;
+	border: 0;
+	resize: vertical;
+}
+
+/*view*/
+.board_view {
+	width: 100%;
+	border-top: 2px solid #000;
+}
+
+.board_view .title {
+	border-bottom: 1px dashed #ddd;
+	font-size: 1.4rem;
+}
+
+.board_view .title td {
+	padding: 20px 15px;
+}
+
+.board_view .info {
+	padding: 15px;
+	border-bottom: 1px solid #999;
+}
+
+.board_view .cont {	
+	border-bottom: 1px solid #000;
+	height:200px;	
+}
+
+.board_view .cont td {
+	padding: 15px;
+}
+
+
+	

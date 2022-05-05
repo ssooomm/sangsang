@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.navbar-brand, h1, h2, h3, h4{
+	font-family: 'Jeju Gothic' ;
+}
+h5{
+	font-family: 'Jeju Gothic';
+	font-size: 18px;
+}
+
+body{
+	font-family:'Nanum Gothic';
+	padding: 5rem 2rem 3rem;
+}
+ 
+/*  #logo { 
+ filter: opacity(0.5) drop-shadow(0 0 0 white); 
+ }
+ */
+
+ 
+.navbar__logo {
+  font-size: 24px;
+  color: white;
+}
+
+.navbar__logo i {
+  color: white;
+}
+
+#icons{
+	color: white;
+	display: block;
+    padding: .5rem 0.5rem;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+div #optionchoose {
+	padding:4rem 2rem;
+}
